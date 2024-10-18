@@ -1,0 +1,72 @@
+.myList {
+    display: block;
+    width: 40%;
+    margin: 30px 50px;
+    padding: 20px 50px;
+    background-color:rgb(208, 224, 219) ;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.myForm  {
+    display: block;
+    text-align: center;
+    margin: 30px 50px;
+    padding: 20px 50px;
+    background-color:rgb(196, 208, 223) ;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+button {
+    background-color: #2cc0da;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+input[type="email"], input[type="text"] {
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="email"]:focus {
+    border-color: #17d637;
+    outline: none;
+}
+input[type="text"]:focus {
+    border-color: #17d637;
+    outline: none;
+}
+button:hover {
+    background-color: #21c959;
+}
+
+button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid #bebebe;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.error-message {
+    color: red; /* Цвет сообщения об ошибке */
+}

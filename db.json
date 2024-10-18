@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Mark Brown",
+      "email": "mark@example.com"
+    },
+    {
+      "name": "Светлана",
+      "email": "gggg111@mail.ru",
+      "id": "fded"
+    },
+    {
+      "name": "Коля",
+      "email": "gggg@mail.ru",
+      "id": "18fe"
+    }
+  ]
+}
